@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39850B631FEA6E45000C22A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39850B621FEA6E45000C22A4 /* AppDelegate.swift */; };
+		39850B651FEA6E45000C22A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39850B641FEA6E45000C22A4 /* ViewController.swift */; };
+		39850B681FEA6E45000C22A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39850B661FEA6E45000C22A4 /* Main.storyboard */; };
+		39850B6A1FEA6E45000C22A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39850B691FEA6E45000C22A4 /* Assets.xcassets */; };
+		39850B6D1FEA6E45000C22A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39850B6B1FEA6E45000C22A4 /* LaunchScreen.storyboard */; };
+		39850B781FEA6E45000C22A4 /* FacebookLiveStreamAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39850B771FEA6E45000C22A4 /* FacebookLiveStreamAnimationTests.swift */; };
+		39850B831FEA6E45000C22A4 /* FacebookLiveStreamAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39850B821FEA6E45000C22A4 /* FacebookLiveStreamAnimationUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39850B741FEA6E45000C22A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39850B571FEA6E45000C22A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39850B5E1FEA6E45000C22A4;
+			remoteInfo = FacebookLiveStreamAnimation;
+		};
+		39850B7F1FEA6E45000C22A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39850B571FEA6E45000C22A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39850B5E1FEA6E45000C22A4;
+			remoteInfo = FacebookLiveStreamAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		39850B5F1FEA6E45000C22A4 /* FacebookLiveStreamAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacebookLiveStreamAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39850B621FEA6E45000C22A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		39850B641FEA6E45000C22A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		39850B671FEA6E45000C22A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		39850B691FEA6E45000C22A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39850B6C1FEA6E45000C22A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		39850B6E1FEA6E45000C22A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39850B731FEA6E45000C22A4 /* FacebookLiveStreamAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacebookLiveStreamAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39850B771FEA6E45000C22A4 /* FacebookLiveStreamAnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookLiveStreamAnimationTests.swift; sourceTree = "<group>"; };
+		39850B791FEA6E45000C22A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39850B7E1FEA6E45000C22A4 /* FacebookLiveStreamAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacebookLiveStreamAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39850B821FEA6E45000C22A4 /* FacebookLiveStreamAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookLiveStreamAnimationUITests.swift; sourceTree = "<group>"; };
+		39850B841FEA6E45000C22A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39850B5C1FEA6E45000C22A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39850B701FEA6E45000C22A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39850B7B1FEA6E45000C22A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39850B561FEA6E45000C22A4 = {
+			isa = PBXGroup;
+			children = (
+				39850B611FEA6E45000C22A4 /* FacebookLiveStreamAnimation */,
+				39850B761FEA6E45000C22A4 /* FacebookLiveStreamAnimationTests */,
+				39850B811FEA6E45000C22A4 /* FacebookLiveStreamAnimationUITests */,
+				39850B601FEA6E45000C22A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39850B601FEA6E45000C22A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39850B5F1FEA6E45000C22A4 /* FacebookLiveStreamAnimation.app */,
+				39850B731FEA6E45000C22A4 /* FacebookLiveStreamAnimationTests.xctest */,
+				39850B7E1FEA6E45000C22A4 /* FacebookLiveStreamAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39850B611FEA6E45000C22A4 /* FacebookLiveStreamAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				39850B621FEA6E45000C22A4 /* AppDelegate.swift */,
+				39850B641FEA6E45000C22A4 /* ViewController.swift */,
+				39850B661FEA6E45000C22A4 /* Main.storyboard */,
+				39850B691FEA6E45000C22A4 /* Assets.xcassets */,
+				39850B6B1FEA6E45000C22A4 /* LaunchScreen.storyboard */,
+				39850B6E1FEA6E45000C22A4 /* Info.plist */,
+			);
+			path = FacebookLiveStreamAnimation;
+			sourceTree = "<group>";
+		};
+		39850B761FEA6E45000C22A4 /* FacebookLiveStreamAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				39850B771FEA6E45000C22A4 /* FacebookLiveStreamAnimationTests.swift */,
+				39850B791FEA6E45000C22A4 /* Info.plist */,
+			);
+			path = FacebookLiveStreamAnimationTests;
+			sourceTree = "<group>";
+		};
+		39850B811FEA6E45000C22A4 /* FacebookLiveStreamAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				39850B821FEA6E45000C22A4 /* FacebookLiveStreamAnimationUITests.swift */,
+				39850B841FEA6E45000C22A4 /* Info.plist */,
+			);
+			path = FacebookLiveStreamAnimationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39850B5E1FEA6E45000C22A4 /* FacebookLiveStreamAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39850B871FEA6E45000C22A4 /* Build configuration list for PBXNativeTarget "FacebookLiveStreamAnimation" */;
+			buildPhases = (
+				39850B5B1FEA6E45000C22A4 /* Sources */,
+				39850B5C1FEA6E45000C22A4 /* Frameworks */,
+				39850B5D1FEA6E45000C22A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FacebookLiveStreamAnimation;
+			productName = FacebookLiveStreamAnimation;
+			productReference = 39850B5F1FEA6E45000C22A4 /* FacebookLiveStreamAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39850B721FEA6E45000C22A4 /* FacebookLiveStreamAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39850B8A1FEA6E45000C22A4 /* Build configuration list for PBXNativeTarget "FacebookLiveStreamAnimationTests" */;
+			buildPhases = (
+				39850B6F1FEA6E45000C22A4 /* Sources */,
+				39850B701FEA6E45000C22A4 /* Frameworks */,
+				39850B711FEA6E45000C22A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39850B751FEA6E45000C22A4 /* PBXTargetDependency */,
+			);
+			name = FacebookLiveStreamAnimationTests;
+			productName = FacebookLiveStreamAnimationTests;
+			productReference = 39850B731FEA6E45000C22A4 /* FacebookLiveStreamAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		39850B7D1FEA6E45000C22A4 /* FacebookLiveStreamAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39850B8D1FEA6E45000C22A4 /* Build configuration list for PBXNativeTarget "FacebookLiveStreamAnimationUITests" */;
+			buildPhases = (
+				39850B7A1FEA6E45000C22A4 /* Sources */,
+				39850B7B1FEA6E45000C22A4 /* Frameworks */,
+				39850B7C1FEA6E45000C22A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39850B801FEA6E45000C22A4 /* PBXTargetDependency */,
+			);
+			name = FacebookLiveStreamAnimationUITests;
+			productName = FacebookLiveStreamAnimationUITests;
+			productReference = 39850B7E1FEA6E45000C22A4 /* FacebookLiveStreamAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39850B571FEA6E45000C22A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Kilian;
+				TargetAttributes = {
+					39850B5E1FEA6E45000C22A4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					39850B721FEA6E45000C22A4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 39850B5E1FEA6E45000C22A4;
+					};
+					39850B7D1FEA6E45000C22A4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 39850B5E1FEA6E45000C22A4;
+					};
+				};
+			};
+			buildConfigurationList = 39850B5A1FEA6E45000C22A4 /* Build configuration list for PBXProject "FacebookLiveStreamAnimation" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39850B561FEA6E45000C22A4;
+			productRefGroup = 39850B601FEA6E45000C22A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39850B5E1FEA6E45000C22A4 /* FacebookLiveStreamAnimation */,
+				39850B721FEA6E45000C22A4 /* FacebookLiveStreamAnimationTests */,
+				39850B7D1FEA6E45000C22A4 /* FacebookLiveStreamAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39850B5D1FEA6E45000C22A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39850B6D1FEA6E45000C22A4 /* LaunchScreen.storyboard in Resources */,
+				39850B6A1FEA6E45000C22A4 /* Assets.xcassets in Resources */,
+				39850B681FEA6E45000C22A4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39850B711FEA6E45000C22A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39850B7C1FEA6E45000C22A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39850B5B1FEA6E45000C22A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39850B651FEA6E45000C22A4 /* ViewController.swift in Sources */,
+				39850B631FEA6E45000C22A4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39850B6F1FEA6E45000C22A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39850B781FEA6E45000C22A4 /* FacebookLiveStreamAnimationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39850B7A1FEA6E45000C22A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39850B831FEA6E45000C22A4 /* FacebookLiveStreamAnimationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39850B751FEA6E45000C22A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39850B5E1FEA6E45000C22A4 /* FacebookLiveStreamAnimation */;
+			targetProxy = 39850B741FEA6E45000C22A4 /* PBXContainerItemProxy */;
+		};
+		39850B801FEA6E45000C22A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39850B5E1FEA6E45000C22A4 /* FacebookLiveStreamAnimation */;
+			targetProxy = 39850B7F1FEA6E45000C22A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		39850B661FEA6E45000C22A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39850B671FEA6E45000C22A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		39850B6B1FEA6E45000C22A4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39850B6C1FEA6E45000C22A4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39850B851FEA6E45000C22A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		39850B861FEA6E45000C22A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39850B881FEA6E45000C22A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V4EQG7WTM5;
+				INFOPLIST_FILE = FacebookLiveStreamAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kiian.FacebookLiveStreamAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39850B891FEA6E45000C22A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V4EQG7WTM5;
+				INFOPLIST_FILE = FacebookLiveStreamAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kiian.FacebookLiveStreamAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		39850B8B1FEA6E45000C22A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V4EQG7WTM5;
+				INFOPLIST_FILE = FacebookLiveStreamAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kiian.FacebookLiveStreamAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FacebookLiveStreamAnimation.app/FacebookLiveStreamAnimation";
+			};
+			name = Debug;
+		};
+		39850B8C1FEA6E45000C22A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V4EQG7WTM5;
+				INFOPLIST_FILE = FacebookLiveStreamAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kiian.FacebookLiveStreamAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FacebookLiveStreamAnimation.app/FacebookLiveStreamAnimation";
+			};
+			name = Release;
+		};
+		39850B8E1FEA6E45000C22A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V4EQG7WTM5;
+				INFOPLIST_FILE = FacebookLiveStreamAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kiian.FacebookLiveStreamAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FacebookLiveStreamAnimation;
+			};
+			name = Debug;
+		};
+		39850B8F1FEA6E45000C22A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V4EQG7WTM5;
+				INFOPLIST_FILE = FacebookLiveStreamAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kiian.FacebookLiveStreamAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FacebookLiveStreamAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39850B5A1FEA6E45000C22A4 /* Build configuration list for PBXProject "FacebookLiveStreamAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39850B851FEA6E45000C22A4 /* Debug */,
+				39850B861FEA6E45000C22A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39850B871FEA6E45000C22A4 /* Build configuration list for PBXNativeTarget "FacebookLiveStreamAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39850B881FEA6E45000C22A4 /* Debug */,
+				39850B891FEA6E45000C22A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39850B8A1FEA6E45000C22A4 /* Build configuration list for PBXNativeTarget "FacebookLiveStreamAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39850B8B1FEA6E45000C22A4 /* Debug */,
+				39850B8C1FEA6E45000C22A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39850B8D1FEA6E45000C22A4 /* Build configuration list for PBXNativeTarget "FacebookLiveStreamAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39850B8E1FEA6E45000C22A4 /* Debug */,
+				39850B8F1FEA6E45000C22A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39850B571FEA6E45000C22A4 /* Project object */;
+}
